@@ -1,0 +1,4 @@
+numpy~=1.25.1
+tqdm~=4.65.0
+prettyconf~=2.2.1
+matplotlib~=3.7.2
