@@ -1,11 +1,9 @@
 from prettyconf import config
 
-from prettyconf.loaders import IniFile
 import os
 
 ini_path = os.path.join(os.path.dirname(__file__), "config.ini")
 
-config.loaders = [IniFile(filename=ini_path)]
 
 DEBUG = config("debug", default=False, cast=config.boolean)
 
